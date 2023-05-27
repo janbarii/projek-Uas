@@ -8,7 +8,7 @@ class ListAlbums extends React.Component {
     const { response, artistInput } = this.props;
     return (
       <MainAlbums>
-        <p className="result">{artistInput} </p>
+        <p className="result">Results of {artistInput} </p>
         <DivAlbums className="listAlbums">
           {response.map((album, index) => (
             <div key={index} className="album">

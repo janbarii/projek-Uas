@@ -5,7 +5,6 @@ export const MainAlbums = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 50px;
 `;
 
 export const DivAlbums = styled.div`
@@ -13,14 +12,16 @@ export const DivAlbums = styled.div`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height: 100%;
   width: 100%;
+  position: absolute;
   gap: 20px;
-  margin-top: -200px;
+  margin-top: 20px;
   div {
     background-color: #035f49;
     border: 2px solid transparent;
     border-radius: 13px;
-    min-height: 320px;
+    min-height: 330px;
     width: 20%;
     overflow: hidden;
     flex-wrap: wrap;
@@ -31,7 +32,6 @@ export const DivAlbums = styled.div`
     font-size: 13px;
     align-items: center;
     padding: 5px;
-    margin-bottom: 50px;
 
     a {
       color: #27c083;
